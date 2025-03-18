@@ -1,4 +1,4 @@
-import spacy
+
 
 
 # # Load NLP model
@@ -26,9 +26,14 @@ import spacy
 
 # filepath: c:\Users\SUNYLoaner\Desktop\Buddy\keyword_extraction.py
 import spacy
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    import subprocess
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    nlp = spacy.load("en_core_web_sm")
 
-# Load NLP model
-nlp = spacy.load("en_core_web_sm")
+
 
 def extract_keywords(job_desc):
     doc = nlp(job_desc)
