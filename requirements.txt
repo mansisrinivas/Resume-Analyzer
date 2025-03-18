@@ -1,7 +1,4 @@
 
-
-
-python -m spacy download en_core_web_sm
 pip>=25.0.1
 streamlit
 spacy==3.8.4
