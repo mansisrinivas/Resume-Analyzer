@@ -1,0 +1,37 @@
+.title {
+    color: #f76ca1;  /* Dark pink color */
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #030303;
+    text-align: right;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+
+
+/* Custom button styles */
+div.stbutton > button {
+    background-color: #aa4675;  /* Dark pink color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+div.stButton > button:hover {
+    background-color: #8d145e;  /* Darker pink color for hover effect */
+}
