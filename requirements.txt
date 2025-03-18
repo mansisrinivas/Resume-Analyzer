@@ -1,7 +1,8 @@
 pip>=25.0.1
 
 streamlit
-spacy
+spacy==3.8.4
+
 en-core-web-sm==3.5.0
 markdown-it-py==3.0.0
 rich==13.9.4
