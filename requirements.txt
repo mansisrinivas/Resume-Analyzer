@@ -1,9 +1,10 @@
-pip>=25.0.1
 
+
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+pip>=25.0.1
 streamlit
 spacy==3.8.4
-en-core-web-sm==3.0.0
-
 markdown-it-py==3.0.0
 rich==13.9.4
 pygments==2.19.1
